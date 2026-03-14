@@ -10,6 +10,13 @@ import FAQPage from "../pages/FAQPage";
 import ContactPage from "../pages/ContactPage";
 import NotFoundPage from "../pages/NotFoundPage";
 
+function Home() {
+  return (
+    <div style={{ minHeight: "100vh", display: "grid", placeItems: "center", color: "white", background: "#0b0b0f" }}>
+      <h1 style={{ fontSize: "3rem" }}>3D Print Business</h1>
+    </div>
+  );
+}
 export default function AppRouter() {
   return (
     <Routes>
